@@ -14,5 +14,5 @@ for i in data:
     for j in i:
         newData.append(j)
 
-m = sorted(newData)[len(newData) // 2]
-print(sum(abs(v - m) for v in newData))
+mediana = sorted(newData)[len(newData) // 2]
+print(sum(abs(v - mediana) for v in newData))
